@@ -64,7 +64,7 @@ async def on_ready():
     print("Prêt à vous servir, maître.")
     print("Je sers : " + str(len(bot.guilds)) + " serveurs actuellement, et je sers " + str(len(set(bot.get_all_members()))) + " personnes !")
     await bot.change_presence(status=discord.Status.online, activity=discord.Game(name="(l!help)Ya salam! Je suis dans " + str(len(bot.guilds)) + " serveurs!"))
-bot.run(bot.run(os.environ[TOKEN])) #Lancer le bot. Remplacez token par votre token et laissez les apostrophes    
+bot.run(bot.run(os.environ['TOKEN'])) #Lancer le bot. Remplacez token par votre token et laissez les apostrophes    
 
 
 
