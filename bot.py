@@ -5,7 +5,6 @@ from discord.utils import find
 import os
 bot = commands.Bot(command_prefix = 'l!') #indiquez la description et le préfixe de votre bot (laissez les apostrophes)
 bot.remove_command('help')
-NerincetClientID = ('526175855609905162')
 
 @bot.event
 async def on_guild_join(guild, ctx):
